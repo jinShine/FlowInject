@@ -2,7 +2,7 @@
 
 [![Language](https://img.shields.io/badge/swift-3.0--5.0-yellow)](https://cocoapods.org/pods/FlowInject)
 [![Version](https://img.shields.io/cocoapods/v/FlowInject.svg?style=flat)](https://cocoapods.org/pods/FlowInject)
-[![License](https://img.shields.io/cocoapods/l/FlowInject.svg?style=flat)](https://cocoapods.org/pods/FlowInject)
+[![License](https://img.shields.io/badge/license-MIT-blueviolet)](https://cocoapods.org/pods/FlowInject)
 [![Platform](https://img.shields.io/cocoapods/p/FlowInject.svg?style=flat)](https://cocoapods.org/pods/FlowInject)
 
 ## Example
