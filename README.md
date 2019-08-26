@@ -28,7 +28,26 @@ pod 'FlowInject'
 
 ## 🚢 Usage
 
-먼저 `Route`타입의 enum을 생성 한다.
+### Using FlowInject from App Launch
+To use Navigator from the launch of the app, make sure to create the app’s window programmatically in `AppDelegate.swift`
+Then, set the Navigator as the root of the window’s view hierarchy in the `AppDelegate.didFinishLaunching`.
+```swift
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+
+    var window: UIWindow?
+
+
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+      
+      self.window = UIWindow(frame: UIScreen.main.bounds)
+      let appNavigator = AppNavigator(in: self.window)
+
+        return true
+    }
+
+}
+```
 
 
 
