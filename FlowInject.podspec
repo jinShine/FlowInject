@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.swift_version    = '4.2'
   s.summary          = 'A short description of FlowInject.'
   s.description      = 'A library of Coordinator Patterns that are easy to use for dependency injections in applications written on pure Swift for iOS.'
-  s.homepage         = 'https://github.com/seungjin/FlowInject'
+  s.homepage         = 'https://github.com/jinShine/FlowInject'
   # s.screenshots      = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'seungjin' => 'seungjin429@gmail.com' }
