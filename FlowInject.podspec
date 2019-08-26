@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FlowInject'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.swift_version    = '4.2'
   s.summary          = 'A library of Coordinator Patterns that are easy to use for dependency injections in applications written on pure Swift for iOS.'
   s.homepage         = 'https://github.com/jinShine/FlowInject'
