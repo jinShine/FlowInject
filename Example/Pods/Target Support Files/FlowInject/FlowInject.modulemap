@@ -1,0 +1,6 @@
+framework module FlowInject {
+  umbrella header "FlowInject-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100ED9839BEE949F585DBE0B4AB38F17 /* FlowInject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD786ECD017600BFE5FBBA527903E25 /* FlowInject-dummy.m */; };
+		1BB00E7F5C01B46C7B77E18FA860D20D /* FlowInject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FCBE5B0EC3A935411E4511C9353B26 /* FlowInject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DE11F8632F2D51574B5732A1AABF2DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3197CD263D7CA641468B504F3462E57F /* Pods-FlowInject_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9578EFE4094648536AC97540912E4AE /* Pods-FlowInject_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		801A99F8404DD8757C3C7A27D7DC0A5F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874511017B73CE1EB001C4ABBFCD01DD /* ReplaceMe.swift */; };
+		C0E8670ED8F0A6EDDAFF50CCB7EA5087 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C6133F4C2E7390E975F2817BEF30A0D3 /* Pods-FlowInject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921993BC804DCB5B7EF1D672719CDAF /* Pods-FlowInject_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEE9BC7DC28B14307FBFCCE33F9C3698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4BAC544711F7D3CAFEBE1D8BB80260A;
+			remoteInfo = FlowInject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0582E6BB8DF110C7E2C8CCC4234AAEF0 /* FlowInject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlowInject-prefix.pch"; sourceTree = "<group>"; };
+		1218810D800D3823B20D31FFBE3A0B3C /* FlowInject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlowInject.framework; path = FlowInject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		155513902BAC359F58456E8349DDBD55 /* Pods_FlowInject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlowInject_Tests.framework; path = "Pods-FlowInject_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3785DE125CB8F0EBAA36A4B5A3FA9254 /* Pods-FlowInject_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlowInject_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D957905034E7496DE6EFB18D5D0C95A /* Pods-FlowInject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlowInject_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		44178A7C346760F03C693184603D4448 /* FlowInject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FlowInject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4921993BC804DCB5B7EF1D672719CDAF /* Pods-FlowInject_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlowInject_Tests-dummy.m"; sourceTree = "<group>"; };
+		548E411984089C70D102F4D4A55DC762 /* FlowInject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlowInject.modulemap; sourceTree = "<group>"; };
+		69505B381C0F0E671E398DEBFD37FF6B /* Pods-FlowInject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlowInject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		72B2B69B218145F9EBF2444F1E45330E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7DD786ECD017600BFE5FBBA527903E25 /* FlowInject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlowInject-dummy.m"; sourceTree = "<group>"; };
+		83663F2C4653DD37F7019DC02D0323B3 /* Pods-FlowInject_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlowInject_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8571E617D656F279783F40E00B04AF0B /* FlowInject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlowInject.xcconfig; sourceTree = "<group>"; };
+		874511017B73CE1EB001C4ABBFCD01DD /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FlowInject/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		9D63684FEDB98544120850AB13791EA4 /* Pods-FlowInject_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlowInject_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB2536EC984D947DEC7BA7FE570F5E2F /* Pods-FlowInject_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlowInject_Tests-Info.plist"; sourceTree = "<group>"; };
+		D3A08142F51F8197681930E98264B1E9 /* FlowInject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlowInject-Info.plist"; sourceTree = "<group>"; };
+		D9578EFE4094648536AC97540912E4AE /* Pods-FlowInject_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlowInject_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DE39F53D542057486E39DA29D838DFDB /* Pods-FlowInject_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlowInject_Tests.modulemap"; sourceTree = "<group>"; };
+		E3D9AD1C6E64EAAE0346D17B123D2144 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E4FCBE5B0EC3A935411E4511C9353B26 /* FlowInject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlowInject-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		550127FABF6293DF68A63211964C061B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E8670ED8F0A6EDDAFF50CCB7EA5087 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A266A6D6E03286ED6E37EB80F6B2BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE11F8632F2D51574B5732A1AABF2DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42B738563E4F054CD4753AF9B5C4C7E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1218810D800D3823B20D31FFBE3A0B3C /* FlowInject.framework */,
+				155513902BAC359F58456E8349DDBD55 /* Pods_FlowInject_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BDF8871DBAC6A31BDE9EBC08868083F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				548E411984089C70D102F4D4A55DC762 /* FlowInject.modulemap */,
+				8571E617D656F279783F40E00B04AF0B /* FlowInject.xcconfig */,
+				7DD786ECD017600BFE5FBBA527903E25 /* FlowInject-dummy.m */,
+				D3A08142F51F8197681930E98264B1E9 /* FlowInject-Info.plist */,
+				0582E6BB8DF110C7E2C8CCC4234AAEF0 /* FlowInject-prefix.pch */,
+				E4FCBE5B0EC3A935411E4511C9353B26 /* FlowInject-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FlowInject";
+			sourceTree = "<group>";
+		};
+		95CDD7E7BEF799CD599EABC1C5DDD15D /* Pods-FlowInject_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DE39F53D542057486E39DA29D838DFDB /* Pods-FlowInject_Tests.modulemap */,
+				3785DE125CB8F0EBAA36A4B5A3FA9254 /* Pods-FlowInject_Tests-acknowledgements.markdown */,
+				9D63684FEDB98544120850AB13791EA4 /* Pods-FlowInject_Tests-acknowledgements.plist */,
+				4921993BC804DCB5B7EF1D672719CDAF /* Pods-FlowInject_Tests-dummy.m */,
+				83663F2C4653DD37F7019DC02D0323B3 /* Pods-FlowInject_Tests-frameworks.sh */,
+				BB2536EC984D947DEC7BA7FE570F5E2F /* Pods-FlowInject_Tests-Info.plist */,
+				D9578EFE4094648536AC97540912E4AE /* Pods-FlowInject_Tests-umbrella.h */,
+				69505B381C0F0E671E398DEBFD37FF6B /* Pods-FlowInject_Tests.debug.xcconfig */,
+				3D957905034E7496DE6EFB18D5D0C95A /* Pods-FlowInject_Tests.release.xcconfig */,
+			);
+			name = "Pods-FlowInject_Tests";
+			path = "Target Support Files/Pods-FlowInject_Tests";
+			sourceTree = "<group>";
+		};
+		BEDDA8115DFD004FA4AD2E162C2F3AB5 /* FlowInject */ = {
+			isa = PBXGroup;
+			children = (
+				874511017B73CE1EB001C4ABBFCD01DD /* ReplaceMe.swift */,
+				F7FFDC165E8E49AC4D4B23006AB7D1B2 /* Pod */,
+				7BDF8871DBAC6A31BDE9EBC08868083F /* Support Files */,
+			);
+			name = FlowInject;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C12709D78DF30B579EF93FE1D4FECBFC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEDDA8115DFD004FA4AD2E162C2F3AB5 /* FlowInject */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C12709D78DF30B579EF93FE1D4FECBFC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				42B738563E4F054CD4753AF9B5C4C7E3 /* Products */,
+				F5364CB66997B803D047A7A606C0C5FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5364CB66997B803D047A7A606C0C5FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95CDD7E7BEF799CD599EABC1C5DDD15D /* Pods-FlowInject_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F7FFDC165E8E49AC4D4B23006AB7D1B2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				44178A7C346760F03C693184603D4448 /* FlowInject.podspec */,
+				72B2B69B218145F9EBF2444F1E45330E /* LICENSE */,
+				E3D9AD1C6E64EAAE0346D17B123D2144 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D61D05FF3DAFAD0E0E93FD71C1F8C365 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3197CD263D7CA641468B504F3462E57F /* Pods-FlowInject_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8FD7DE29D9CF1CE8FE9838AF669299 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB00E7F5C01B46C7B77E18FA860D20D /* FlowInject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		93F901899540FAAB8C6E74F97FD14834 /* Pods-FlowInject_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CDE062170A1532EDB9B8118EFF2B1F /* Build configuration list for PBXNativeTarget "Pods-FlowInject_Tests" */;
+			buildPhases = (
+				D61D05FF3DAFAD0E0E93FD71C1F8C365 /* Headers */,
+				E260641BCC47033F6972928E2C588E11 /* Sources */,
+				8A266A6D6E03286ED6E37EB80F6B2BCC /* Frameworks */,
+				14EC4D092648AEBDD5F99A807D492AA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48F173B4666BBE89063606B24862F2A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-FlowInject_Tests";
+			productName = "Pods-FlowInject_Tests";
+			productReference = 155513902BAC359F58456E8349DDBD55 /* Pods_FlowInject_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4BAC544711F7D3CAFEBE1D8BB80260A /* FlowInject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B399750BEF4AA10F7BA3D45BAF882A /* Build configuration list for PBXNativeTarget "FlowInject" */;
+			buildPhases = (
+				FE8FD7DE29D9CF1CE8FE9838AF669299 /* Headers */,
+				5D88FB7DC59B0B53C7C9CBDA54A8539E /* Sources */,
+				550127FABF6293DF68A63211964C061B /* Frameworks */,
+				014893F786C4A1E44EB023718059367B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowInject;
+			productName = FlowInject;
+			productReference = 1218810D800D3823B20D31FFBE3A0B3C /* FlowInject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 42B738563E4F054CD4753AF9B5C4C7E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4BAC544711F7D3CAFEBE1D8BB80260A /* FlowInject */,
+				93F901899540FAAB8C6E74F97FD14834 /* Pods-FlowInject_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		014893F786C4A1E44EB023718059367B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14EC4D092648AEBDD5F99A807D492AA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D88FB7DC59B0B53C7C9CBDA54A8539E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100ED9839BEE949F585DBE0B4AB38F17 /* FlowInject-dummy.m in Sources */,
+				801A99F8404DD8757C3C7A27D7DC0A5F /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E260641BCC47033F6972928E2C588E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6133F4C2E7390E975F2817BEF30A0D3 /* Pods-FlowInject_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48F173B4666BBE89063606B24862F2A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlowInject;
+			target = F4BAC544711F7D3CAFEBE1D8BB80260A /* FlowInject */;
+			targetProxy = EEE9BC7DC28B14307FBFCCE33F9C3698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4172DC02A1AB26891EE95DEA72E22156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D957905034E7496DE6EFB18D5D0C95A /* Pods-FlowInject_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlowInject_Tests/Pods-FlowInject_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlowInject_Tests/Pods-FlowInject_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BB4C91520DA044ACD8E0BA2408E6E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8571E617D656F279783F40E00B04AF0B /* FlowInject.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlowInject/FlowInject-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlowInject/FlowInject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlowInject/FlowInject.modulemap";
+				PRODUCT_MODULE_NAME = FlowInject;
+				PRODUCT_NAME = FlowInject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DBA25C2F1918BF5952B112A0944CABF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69505B381C0F0E671E398DEBFD37FF6B /* Pods-FlowInject_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlowInject_Tests/Pods-FlowInject_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlowInject_Tests/Pods-FlowInject_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E21C1319289395BC0CFE2E9A7E0AF85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8571E617D656F279783F40E00B04AF0B /* FlowInject.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlowInject/FlowInject-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlowInject/FlowInject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlowInject/FlowInject.modulemap";
+				PRODUCT_MODULE_NAME = FlowInject;
+				PRODUCT_NAME = FlowInject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34CDE062170A1532EDB9B8118EFF2B1F /* Build configuration list for PBXNativeTarget "Pods-FlowInject_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA25C2F1918BF5952B112A0944CABF4 /* Debug */,
+				4172DC02A1AB26891EE95DEA72E22156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3B399750BEF4AA10F7BA3D45BAF882A /* Build configuration list for PBXNativeTarget "FlowInject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21C1319289395BC0CFE2E9A7E0AF85C /* Debug */,
+				6BB4C91520DA044ACD8E0BA2408E6E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

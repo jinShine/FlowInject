@@ -1,0 +1,16 @@
+PODS:
+  - FlowInject (0.1.0)
+
+DEPENDENCIES:
+  - FlowInject (from `../`)
+
+EXTERNAL SOURCES:
+  FlowInject:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FlowInject: fcea2f4e081a4c78cf71dd0648b9002da5fdfc27
+
+PODFILE CHECKSUM: a136118f333152a685768e21bf4c61e90ec95dd2
+
+COCOAPODS: 1.7.4

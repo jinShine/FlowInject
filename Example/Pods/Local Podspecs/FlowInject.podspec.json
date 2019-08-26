@@ -1,0 +1,22 @@
+{
+  "name": "FlowInject",
+  "version": "0.1.0",
+  "summary": "A short description of FlowInject.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/seungjin/FlowInject",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "seungjin": "seungjin429@naver.com"
+  },
+  "source": {
+    "git": "https://github.com/seungjin/FlowInject.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FlowInject/Classes/**/*"
+}
