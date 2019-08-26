@@ -1,3 +1,7 @@
+
+[Imgur](https://i.imgur.com/KYZiPZy.png)
+
+
 # FlowInject
 
 [![Language](https://img.shields.io/badge/swift-3.0--5.0-yellow)](https://cocoapods.org/pods/FlowInject)
@@ -5,9 +9,10 @@
 [![License](https://img.shields.io/badge/license-MIT-blueviolet)](https://cocoapods.org/pods/FlowInject)
 [![Platform](https://img.shields.io/cocoapods/p/FlowInject.svg?style=flat)](https://cocoapods.org/pods/FlowInject)
 
-## Example
+## FlowInject
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+A library of Coordinator Patterns that are easy to use for dependency injections in applications written on pure Swift for iOS.
+Coordinator pattern This is an easy way to inject a presenter (UINavigationController) into each Navigator, rather than a complex child structure like other open sources.
 
 ## Requirements
 
