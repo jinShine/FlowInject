@@ -13,6 +13,8 @@
 A library of Coordinator Patterns that are easy to use for dependency injections in applications written on pure Swift for iOS.
 Coordinator pattern This is an easy way to inject a presenter (UINavigationController) into each Navigator, rather than a complex child structure like other open sources.
 
+</br>
+
 ## 🛠 Installation
 
 FlowInject is available through [CocoaPods](https://cocoapods.org/pods/FlowInject). To install
@@ -22,15 +24,21 @@ it, simply add the following line to your Podfile:
 pod 'FlowInject'
 ```
 
+</br>
+
 ## 🚢 Usage
 
+</br>
 
 ## 📦 Example app
 To get more information about FlowInject, Check out the example project
 
-## 👤 Author
+</br>
 
+## 👤 Author
 seungjin, seungjin429@gmail.com
+
+</br>
 
 ## 📄 License
 
