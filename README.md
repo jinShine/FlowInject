@@ -34,18 +34,16 @@ Then, set the Navigator as the root of the window’s view hierarchy in the `App
 ```swift
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication,
+                    didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
       
-      self.window = UIWindow(frame: UIScreen.main.bounds)
-      let appNavigator = AppNavigator(in: self.window)
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let appNavigator = AppNavigator(in: self.window)
 
         return true
     }
-
 }
 ```
 
