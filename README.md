@@ -47,6 +47,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
+### Implement each Navigator
+First, create an enum of the `Route` type.
+The cases of this Enum are used as paths.
+Then, the `Navigator` is inherited from the `Navigator class `and the `Route` type is designated as the generic type.
+After inheriting Navigator, inject the `received presenter` into initializer, Using `navigate(to destination:)`, insert the service and the presenter to enable scene movement.
+In the case of screen movement, it did not implement logic such as transition (push, present, pop, disiss) because each developer has different custom needs. :]
+
+I'll leave it up to you.
+
+```swift
+num MainRoute: Route {
+  case detail(content: String)
+}
+
+class MainNavigator: Navigator<MainRoute> {
+  
+  override init(with presenter: UINavigationController?) {
+    super.init()
+    self.presenter = presenter
+  }
+  
+  func navigate(to destination: MainRoute) {
+    switch destination {
+    case .detail(let content):
+      let viewController = DetailViewController(contentText: content,
+                                                detailNavigator:DetailNavigator(with: presenter))
+      presenter?.pushViewController(viewController, animated: true)
+    }
+  }
+  
+}
+```
 
 
 
