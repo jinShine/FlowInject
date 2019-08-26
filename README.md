@@ -87,12 +87,10 @@ class MainNavigator: Navigator<MainRoute> {
 ## 📦 Example app
 To get more information about FlowInject, Check out the example project
 
-</br>
 
 ## 👤 Author
 seungjin, seungjin429@gmail.com
 
-</br>
 
 ## 📄 License
 
