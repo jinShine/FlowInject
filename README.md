@@ -28,6 +28,11 @@ pod 'FlowInject'
 
 ## 🚢 Usage
 
+먼저 `Route`타입의 enum을 생성 한다.
+
+
+
+
 </br>
 
 ## 📦 Example app
