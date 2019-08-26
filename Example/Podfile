@@ -1,6 +1,11 @@
 use_frameworks!
-target 'FlowInject_Tests' do
+
+target 'FlowInject_Example' do
   pod 'FlowInject', :path => '../'
-  
-  
+
+  target 'FlowInject_Tests' do
+    inherit! :search_paths
+
+    
+  end
 end

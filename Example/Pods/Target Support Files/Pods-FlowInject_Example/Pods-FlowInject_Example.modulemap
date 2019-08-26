@@ -1,0 +1,6 @@
+framework module Pods_FlowInject_Example {
+  umbrella header "Pods-FlowInject_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

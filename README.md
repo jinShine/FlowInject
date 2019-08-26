@@ -22,7 +22,7 @@ pod 'FlowInject'
 
 ## Author
 
-seungjin, seungjin429@naver.com
+seungjin, seungjin429@gmail.com
 
 ## License
 
