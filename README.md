@@ -57,7 +57,7 @@ In the case of screen movement, it did not implement logic such as transition (p
 I'll leave it up to you.
 
 ```swift
-num MainRoute: Route {
+enum MainRoute: Route {
   case detail(content: String)
 }
 
